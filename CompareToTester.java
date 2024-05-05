@@ -16,8 +16,8 @@ public class CompareToTester {
             String str1 = generateRandomString(random.nextInt(10) + 1);
             String str2 = generateRandomString(random.nextInt(10) + 1);
 
-            int result1 = str1.compareTo(str2);
-            int result2 = str1.compareTo(str2);
+            int result1 = str1.compareTo(str1);
+            int result2 = str2.compareTo(str2);
 
             if (result1 == result2) {
                 System.out.println("--------- Test " + i + " is successful");
